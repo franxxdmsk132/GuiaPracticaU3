@@ -1,0 +1,20 @@
+# Configuración de PostgreSQL
+spring.datasource.url=jdbc:postgresql://localhost:5432/tu_nombre_de_base_de_datos
+spring.datasource.username=tu_usuario
+spring.datasource.password=tu_contraseña
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# Configuración de Hibernate
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+
+
+
+# Configuración de MongoDB
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+spring.data.mongodb.database=Student
+
+#Imagen
+spring.servlet.multipart.max-file-size=20MB
+spring.servlet.multipart.max-request-size=20MB
